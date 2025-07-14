@@ -79,18 +79,16 @@ def modify_num_accounts():
 
 
 def anti_afk():
-    global num_accounts_to_launch
+    # Ouvre le script AutoHotkey pour l'anti-AFK avec le chemin d'AutoHotkey.exe
+    try:
+        # Remplace ce chemin par le chemin réel d'AutoHotkey.exe sur ta machine Windows
+        autohotkey_path = r"C:\\Program Files\\AutoHotkey\\AutoHotkey.exe"
+        script_path = r"toggle.ahk"  # À adapter selon l'emplacement réel
+        subprocess.Popen([autohotkey_path, script_path])
+        print("Script toggle.ahk lancé avec AutoHotkey.")
+    except Exception as e:
+        print(f"Erreur lors du lancement de toggle.ahk : {e}")
 
-    print("Anti AFK started...")
-
-    while True:
-        # Attendre 5 minutes
-        time.sleep(30)  # 300 secondes équivalent à 5 minutes
-
-        # Appuyer sur la touche Espace après chaque bascule de fenêtre
-        switch_between_windows()
-
-        print("Anti AFK completed")
 def switch_between_windows():
     global num_accounts_to_launch
 
