@@ -143,6 +143,30 @@ def move_account():
     else:
         print(f"Account with alias '{alias_to_move}' not found")
 
+def preset():
+    import shutil
+    import os
+    # Chemin du fichier cible à modifier
+    trove_cfg_path = r"C:\\Users\\lrhoa\\AppData\\Roaming\\Trove\\Trove.cfg"
+    print("\n[1] Preset default\n[2] Preset opti")
+    preset_choice = input("Choose a preset (1 or 2): ")
+    if preset_choice == "1":
+        preset_file = "default.txt"
+    elif preset_choice == "2":
+        preset_file = "opti.txt"
+    else:
+        print("Invalid choice.")
+        return
+    try:
+        with open(preset_file, "r", encoding="utf-8") as src:
+            preset_content = src.read()
+        # Remplacer le contenu du fichier cible
+        with open(trove_cfg_path, "w", encoding="utf-8") as dst:
+            dst.write(preset_content)
+        print(f"Preset '{preset_file}' applied to Trove.cfg.")
+    except Exception as e:
+        print(f"Error applying preset: {e}")
+
 
 while True:
     banner1=('''
@@ -155,7 +179,7 @@ while True:
                                                                                 
     [1] Launch Account   [2] Compte launched     [3] View Account
     [4] Add Account      [5] Delete Account      [6] Move Account  
-    [7] Anti AFK''')
+    [7] Anti AFK         [8] Fix Preset''')
     
     print(Colorate.Vertical(Colors.purple_to_blue, Center.XCenter(f'\n {banner1}')))
     
@@ -175,5 +199,7 @@ while True:
         move_account()
     elif choice == "7":
         anti_afk()
+    elif choice == "8":
+        preset()
     else:
         print("Please select an option")

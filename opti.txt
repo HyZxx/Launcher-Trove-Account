@@ -1,0 +1,215 @@
+[Mods]
+OutOfDateModsNotified = true
+LastModVersion = 371
+DisableAllMods = 
+DisabledMods = Workshop-Enhanced UI-Exodave & TheSymbol|Workshop-The Master Radar VFX-CrazyOnly|Workshop-CrazyOnly Skull Cube VFX-CrazyOnly|Workshop-Clean VFX Item Drops-KillerT800|Trove-Fps2-KIL|Trove-Show Mastery Rank leaderboard-LiuLianF & star_ss|Trove-Superior Loot Collector - Advanced-TheSymbol & ExoDave|Trove-TheSymbols Chat Mod-TheSymbol|Trove-TheSymbols Club Tag Mod (Edited by Axodius)-Axodius|Trove-- Obscure UI - Superior Marketplace-Criteox|Trove-Auto Easy Happy UI-LiuLianF
+ModDirectory = mods
+UseWatchdogs = 
+
+[UI]
+HideGeodeAdventure = 
+SkipAuctionClaimConformation = false
+HideAutoUseTome = 
+ShowCombatText = true
+HideTome = 
+suppressbroadcastchatspam = false
+HideStarbar = 
+HideEvent = true
+HideBadge = 
+HideChallenge = 
+HideQuest = 
+ShowLocation = true
+Scale = 
+HideNPCAdventure = true
+ForceConsoleUI = 
+HideExpertise = true
+
+[Rendering]
+FishingPoolsRendered = 
+preset = -1
+VFXLevelOfDetail = 0.040000
+Bloom = false
+Brightness = 1.000000
+SSAO = false
+ShaderComplexity = 0.000000E+00
+Supersampling = 0.250000
+device = opengl
+LODDistance = 15.000000
+FXAA = false
+Gamma = 1.000000
+DrawDistance = 34.000000
+XRay = 
+LensDistort = false
+DepthOfField = false
+
+[User]
+LicenseRevision = 2023-04-15
+PrivacyRevision = 
+Multithreaded = 
+SkipSteam = 
+TOSRevision = 
+
+[Startup]
+PlayIntroMovies = 0
+
+[InputBindings]
+ToggleUI = 
+Store = 
+Flask = 
+BuildModeNextSlot = 
+Cancel = 
+UIControllerButtonLB = 
+ListRight = 
+LikedWorlds = 
+Homeworld = 
+Collections = 
+NavigationMenu = 
+BuildModePlace = 
+Dodge = 
+Clubs = 
+AdventureModeSlot2 = 
+BuildModeRotateCounterClockwise = 
+Dodge2 = 
+BuildModeDestroy = 
+ListUp = 
+ListDown = 
+Cornerstones = 
+MoveForward = 
+BuildModePreviousSlot = 
+BuildModeSlot4 = 
+BuildModeSlot1 = 
+Leaderboards = 
+BuildModeSlot2 = 
+Atlas = 
+SwitchInputMode = 
+UIControllerButtonRT = 
+ActivityTracker = 
+AdventureModeSlot1 = 
+Fish = 
+Loot = 
+MoveLeft = 
+BasicAbility = 
+InventoryTransferItem = 
+Jump = 
+UIControllerButtonLT = 
+AutoForward = 
+UIControllerButtonY = 
+MetaforgeFreeCam = 
+FriendsList = 
+BuildModeSlot7 = 
+Marketplace = 
+BuildModeRotateClockwise = 
+EquipMount = 
+EquipCart = 
+Map = 
+SystemMenu = 
+ReleaseMouse = 
+UIControllerButtonA = 
+ListLeft = 
+CharacterSheet = 
+AdventureModeSlot3 = 
+MoveRight = 
+InventoryRemoveItem = 
+Take Screenshot = 
+InventoryTransferMultipleItems = 
+MoveBackward = 
+Ability1 = 
+WelcomeScreen = 
+Claims = 
+EquipCurrentMountMovementType = 
+BuildModeSlot8 = 
+UIControllerButtonRB = 
+PrimaryAbility = 
+UIControllerButtonX = 
+BuildModeSlot5 = 
+BuildModeWalk = 
+BomberRoyale = 
+ClassChanger = 
+EquipBoat = 
+Ability2 = 
+Inventory = 
+BuildModeSlot6 = 
+BuildModeSlot3 = 
+MetaforgeCinematicEditor = 
+
+[Input]
+PlacementEdgeMin = 
+PlacementEdgeMax = 
+InvertX = 
+InvertThumbStickY = 
+EdgePlacement = 
+InvertY = 
+InvertThumbStickX = 
+AutoAim = 
+ControllerEnabled = 
+PlatformUI = 
+Sensitivity = 
+RumbleDisabled = 
+StickSensitivity = 
+controllerswapthumbsticks = 
+
+[Social]
+displayclubname = true
+HiddenStatus = false
+CustomText1 = 
+ShowOwnName = false
+GlobalChat = true
+CustomText2 = 
+ProfanityFilter = true
+CustomText3 = 
+CustomText4 = 
+tradechat = false
+showplayernames = true
+
+[Audio]
+MasterVolume = 0.000000E+00
+AmbianceVolume = 1.000000
+GameSoundVolume = 1.000000
+MusicVolume = 0.000000E+00
+VoiceOverVolume = 
+BackgroundAudio = false
+
+[RenderQueue]
+TaskCountReservePct = 
+TaskCountDefault = 
+
+[System]
+OverrideExtension = 
+
+[Clubs]
+Channels_trove-pc-live-us_43262892 = Soruden;Legion Alpha;Bizzareuh;NightParadise;Athenyx
+Channels__76435634 = 
+Channels_trove-pc-live-us_76642519 = NightParadise;;;;
+Channels_trove-pc-live-us_76435812 = NightParadise;Bizzareuh;;;
+Channels = 
+Channels_trove-pc-live-us_76435634 = NightParadise;Bizzareuh;;;
+Channels_trove-pc-live-us_78456056 = Soruden;MeuteduLoup;;;
+Channels_trove-pc-live-us_76435731 = NightParadise;Bizzareuh;;;
+Channels__35503665 = 
+Channels_trove-pc-live-us_35503665 = Soruden;NightParadise;Athenyx;Alpha Legacy;Bizzareuh
+Channels_trove-pc-live-us_76435618 = NightParadise;Bizzareuh;;;
+Channels_trove-pc-live-us_49576755 = Bizzareuh;Enesia;NightParadise;Legion Alpha;
+Channels_trove-pc-live-us_77102386 = Soruden;Boite2Nuit;Vyra;;
+Channels_trove-pc-live-us_76464496 = NightParadise;Bizzareuh;;;
+
+[Chat]
+DisplayChatTimeStamp = 
+SavedChannels = 
+
+[tethering]
+showiconothers = false
+showiconself = false
+invitationbehavior = 181073152
+
+[Display]
+FullscreenMode = 0
+Language = fr
+CameraDistance = 3.125000
+WindowMode = 0
+VSync = false
+X = 
+Y = 
+CameraPitch = 0.376626
+Width = 
+Height = 
+FOV = 100.000000
